@@ -13,7 +13,7 @@ lambda-functions/
 
 ---
 
-## 🔧 Lambda Functions
+## Lambda Functions
 
 ### 1. RdsLambdaInvoke
 **Purpose:** Export PostgreSQL data to S3
