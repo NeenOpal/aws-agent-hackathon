@@ -36,8 +36,8 @@ The system is built on AWS Cloud infrastructure utilizing a modern serverless ar
 2. **API Processing**: API Gateway receives the upload and triggers the first Lambda function
 3. **S3 Event**: File stored in S3 triggers the metadata enrichment pipeline
 4. **AI Processing**: Agent Core Runtime with Bedrock Claude Haiku analyzes and enriches file metadata
-5. **Data Storage**: Processed outputs stored in both RDS (original and staging tables) and S3
-6. **Validation & Finalization**: Staging data validated and promoted to the fixed table
+5. **Data Storage**: Processed inputs and outputs are stored in both RDS  and S3
+6. **Validation & Finalization**: Enriched data is promoted to the RDS (fixed table).
 7. **Frontend Delivery**: API Gateway Lambda sends final enriched data back to the frontend
 
 ##  Features
